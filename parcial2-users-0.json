@@ -1,0 +1,30 @@
+{
+  "realm" : "parcial2",
+  "users" : [ {
+    "id" : "0683e1d2-a165-46c9-8317-75e1b2d705b0",
+    "createdTimestamp" : 1696091327557,
+    "username" : "gj23726116@gmail.com",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : false,
+    "firstName" : "Gerardo",
+    "lastName" : "",
+    "email" : "gj23726116@gmail.com",
+    "credentials" : [ {
+      "id" : "26e51a41-94d4-4e70-994a-fbfe82d44014",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1696091348617,
+      "secretData" : "{\"value\":\"9nBu+VxWUsvbxNChI47yKbj16pb9HByzRMUryek08Nk=\",\"salt\":\"/dv7ZdXSP4R7T+fEJyafwA==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "ADMIN", "default-roles-parcial2" ],
+    "clientRoles" : {
+      "realm-management" : [ "query-groups", "manage-users", "manage-realm" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  } ]
+}
